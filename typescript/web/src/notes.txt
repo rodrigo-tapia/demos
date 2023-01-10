@@ -1,0 +1,10 @@
+we are going to use parcel
+npm install -g parcel-bundler
+  start parcel: command line: $ parcel index.html
+we are going to use json-server
+npm install -g json-server
+  create json db file ie:db.json, add the following as a configuration:
+    {
+    "users": []
+    }
+  command line to start server: $ json-server -w db.json

@@ -1,4 +1,4 @@
-function test (): number {
+function test2 (): number {
   return 25
 }
-test()
+test2()

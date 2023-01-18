@@ -1,3 +1,4 @@
+import { MissingParameterError } from '../errors/client-error'
 import { HttpRequest, HttpResponse } from '../interfaces/http-interface'
 
 export class RegisterVehicle {
@@ -7,7 +8,7 @@ export class RegisterVehicle {
       if (!httpRequest.body[props]) {
         return {
           statusCode: 400,
-          body: new Error(`missing value : ${props}`)
+          body: new MissingParameterError(props)
         }
       }
     }

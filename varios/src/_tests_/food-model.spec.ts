@@ -8,6 +8,7 @@ describe('Food', () => {
       price: 10,
       inventory: 50
     })
+    expect(food.getFood()).toEqual(food)
     expect(food.getName()).toEqual('pizza')
     expect(food.getDescription()).toEqual('double cheese')
     expect(food.getPrice()).toBe(10)

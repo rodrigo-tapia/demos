@@ -1,4 +1,4 @@
-import { IEmailValidator } from '../email-validator'
+import { IEmailValidator } from '../../interfaces/validators/email-validator'
 import validator from 'validator'
 
 export class EmailValidatorAdapter implements IEmailValidator {

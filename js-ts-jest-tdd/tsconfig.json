@@ -4,6 +4,7 @@
     "target": "ES2019",
     "module": "commonjs",
     "allowJs": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "esModuleInterop": true
   }
 }

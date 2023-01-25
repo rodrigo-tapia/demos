@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/main/server/server.ts"
   },
   "keywords": [],

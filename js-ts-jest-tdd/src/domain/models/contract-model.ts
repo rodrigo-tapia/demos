@@ -1,4 +1,4 @@
-import { IContractModel } from '../interfaces/IContractModel'
+import { IContractModel } from '../../interfaces/IContractModel'
 
 export class ContractModel {
   constructor (public contract: IContractModel) {

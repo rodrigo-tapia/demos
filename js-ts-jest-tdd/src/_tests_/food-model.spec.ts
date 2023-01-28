@@ -1,5 +1,5 @@
 import { FoodHelper } from '../helpers/food-model-helper'
-import { Food } from '../models/food-model'
+import { Food } from '../domain/models/food-model'
 
 describe('Food', () => {
   it('Food Model Constructor', () => {

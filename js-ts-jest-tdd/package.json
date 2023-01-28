@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --detectOpenHandles",
+    "test": "jest --passWithNoTests --silent",
+    "test:all": "jest",
+    "test:unit": "jest --config=jest.config.unit.ts",
+    "test:int": "jest --config=jest.config.integration.ts",
+    "test:coverage": "npm test -- --coverage",
     "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/main/server/server.ts"
   },
   "keywords": [],

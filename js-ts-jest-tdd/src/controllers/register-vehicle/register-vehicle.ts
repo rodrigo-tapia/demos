@@ -1,5 +1,5 @@
-import { MissingParameterError } from '../errors/client-error'
-import { HttpRequest, HttpResponse } from '../interfaces/http-interface'
+import { MissingParameterError } from '../../errors/client-error'
+import { HttpRequest, HttpResponse } from '../../interfaces/http-interface'
 
 export class RegisterVehicle {
   handle (httpRequest: HttpRequest): HttpResponse {

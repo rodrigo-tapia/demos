@@ -6,6 +6,11 @@ export const success = (data: any): HttpResponse => ({
   body: data
 })
 
+export const badRequestError = (error: Error): HttpResponse => ({
+  statusCode: 400,
+  body: error
+})
+
 export const serverError = (error: Error): HttpResponse => ({
   statusCode: 500,
   body: new ServerError(error.stack ?? 'Server Error')

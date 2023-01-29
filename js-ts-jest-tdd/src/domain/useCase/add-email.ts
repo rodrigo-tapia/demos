@@ -9,3 +9,7 @@ export interface IMessage {
   subject: string
   body: string
 }
+
+export interface AddEmailAccount {
+  sendEmail: (message: IMessage) => Promise<void>
+}

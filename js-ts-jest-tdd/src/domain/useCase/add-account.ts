@@ -5,6 +5,7 @@ export interface IAddAccountVehicle {
   model: string
   year: string
   color: string
+  email: string
 }
 
 export interface IAddAccount {

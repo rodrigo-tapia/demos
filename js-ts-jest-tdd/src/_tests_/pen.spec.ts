@@ -1,4 +1,4 @@
-import { Pen } from '../domain/models/pen'
+import { Pen } from '../demos/domain/models/pen'
 
 describe('Pen', () => {
   test('write', () => {

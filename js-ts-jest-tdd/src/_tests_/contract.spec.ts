@@ -1,4 +1,4 @@
-import { ContractModel, ContractPrime } from '../domain/models/contract-model'
+import { ContractModel, ContractPrime } from '../demos/domain/models/contract-model'
 
 describe('Class ContractModel', () => {
   test('12 months contract', () => {
